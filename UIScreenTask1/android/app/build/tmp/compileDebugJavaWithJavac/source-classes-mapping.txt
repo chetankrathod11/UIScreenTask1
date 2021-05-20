@@ -1,0 +1,14 @@
+com/uiscreentask1/MainActivity.java
+ com.uiscreentask1.MainActivity
+com/uiscreentask1/BuildConfig.java
+ com.uiscreentask1.BuildConfig
+com/uiscreentask1/MainApplication.java
+ com.uiscreentask1.MainApplication
+ com.uiscreentask1.MainApplication$1
+com/uiscreentask1/ReactNativeFlipper.java
+ com.uiscreentask1.ReactNativeFlipper
+ com.uiscreentask1.ReactNativeFlipper$1
+ com.uiscreentask1.ReactNativeFlipper$2
+ com.uiscreentask1.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

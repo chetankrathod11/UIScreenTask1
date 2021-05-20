@@ -1,0 +1,6 @@
+module Pods_UIScreenTask1_UIScreenTask1Tests {
+  umbrella header "Pods-UIScreenTask1-UIScreenTask1Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
