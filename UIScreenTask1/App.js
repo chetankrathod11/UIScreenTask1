@@ -1,15 +1,14 @@
 import React from 'react';
 import {
   StyleSheet,
-  Text,
   StatusBar,
   useColorScheme,
   SafeAreaView,
-  Image,
 } from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import Header from './components/Header';
 import NavigationBar from './components/NavigationBar';
+import Body from './components/Body';
 import {scale, verticalScale, moderateScale} from 'react-native-size-matters';
 
 export default function App() {
@@ -21,7 +20,8 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <Header />
-      <Text>Hi There</Text>
+      <Body />
+
       <NavigationBar />
     </SafeAreaView>
   );

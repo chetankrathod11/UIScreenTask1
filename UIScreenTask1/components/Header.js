@@ -16,7 +16,7 @@ export default function Header() {
 
 const styles = StyleSheet.create({
   header: {
-    height: '10%',
+    height: '8%',
     backgroundColor: '#2b3618',
     flexDirection: 'row',
     alignItems: 'center',
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   image: {
     width: 35,
     height: 35,
-    marginLeft: 60,
+    marginLeft: '22%',
   },
   text: {
     color: '#fff',

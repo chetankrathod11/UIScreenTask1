@@ -1,5 +1,11 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, View, Image} from 'react-native';
+import {
+  StyleSheet,
+  TouchableOpacity,
+  Dimensions,
+  View,
+  Image,
+} from 'react-native';
 
 export default function Header() {
   return (
@@ -13,8 +19,22 @@ export default function Header() {
       <TouchableOpacity>
         <Image
           source={require('./images/message_Dashboard.png')}
-          style={[styles.image, {width: 50}]}
+          style={[styles.image, {width: 40}]}
         />
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{
+          width: 70,
+          height: 70,
+          borderRadius: 35,
+          borderWidth: 3,
+          borderColor: '#fff',
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginTop: -45,
+          backgroundColor: '#2b3618',
+        }}>
+        <Image source={require('./images/add-icon.png')} style={styles.image} />
       </TouchableOpacity>
       <TouchableOpacity>
         <Image
@@ -35,14 +55,13 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
-    marginTop: 550,
     backgroundColor: '#2b3618',
-    height: '22%',
+    height: '8%',
     justifyContent: 'space-around',
-    paddingTop: 20,
+    alignItems: 'center',
   },
   image: {
-    width: 35,
-    height: 35,
+    width: 25,
+    height: 25,
   },
 });
